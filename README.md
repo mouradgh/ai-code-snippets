@@ -2,5 +2,5 @@
 Useful code snippets for AI projects
 
 
-##video-transcript.py
+## video-transcript.py
 This code uses OpenAI's whisper library to transcribe video/audio files
