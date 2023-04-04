@@ -1,3 +1,6 @@
+# This code uses OpenAI's whisper library to transcribe video/audio files
+# You can find more information about how to use the library here
+# https://github.com/openai/whisper
 import subprocess
 import whisper
 import ssl
