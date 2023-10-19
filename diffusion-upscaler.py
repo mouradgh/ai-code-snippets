@@ -13,7 +13,7 @@ os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
 
 # Stability API Key
 # If you don't have an API key, you can get one by signing up here https://dreamstudio.ai/
-os.environ['STABILITY_KEY'] = 'x'
+os.environ['STABILITY_KEY'] = 'sk-KwVrEeP4r2XYb1vG44yaGGysriFRgJweiLLWCaWNV47rvzx9'
 
 # Set up the connection to the API.
 stability_api = client.StabilityInference(
@@ -32,7 +32,7 @@ answers = stability_api.upscale(
 
     # By default, the image will be upscaled to twice its dimensions
     # An additional "width" or "height" parameter (but not both) can be passed to the upscale function
-    width=1024
+    width=2048
 )
 
 # Set up our warning to print to the console if the adult content classifier is tripped.
