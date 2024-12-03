@@ -7,3 +7,6 @@ This code uses OpenAI's whisper library to transcribe video/audio files
 
 ## diffusion-upscaler.py
 This code calls Stability AI's image upscalling API
+
+## background_removal.py
+Removes the background from an image
